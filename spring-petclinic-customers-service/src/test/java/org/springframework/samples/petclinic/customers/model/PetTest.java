@@ -12,7 +12,7 @@ public class PetTest {
         //Assert
         assertEquals("Fluffy", pet.getName());
     }
-    
+
     @Test
     public void testGetOwner(){
         //Arrange
@@ -22,7 +22,7 @@ public class PetTest {
         //Act
         pet.setOwner(owner);
         //Assert
-        assertEquals("Call", pet.getOwner().getFirstName());
+        assertEquals("Call2", pet.getOwner().getFirstName());
     }
     @Test
     public void testBirthDate(){
