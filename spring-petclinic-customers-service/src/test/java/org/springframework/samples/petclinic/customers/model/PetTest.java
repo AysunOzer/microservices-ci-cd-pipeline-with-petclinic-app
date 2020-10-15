@@ -18,11 +18,11 @@ public class PetTest {
         //Arrange
         Pet pet = new Pet();
         Owner owner = new Owner();
-        owner.setFirstName("Call2");
+        owner.setFirstName("Call");
         //Act
         pet.setOwner(owner);
         //Assert
-        assertEquals("Call2", pet.getOwner().getFirstName());
+        assertEquals("Call", pet.getOwner().getFirstName());
     }
     @Test
     public void testBirthDate(){
