@@ -12,6 +12,7 @@ public class PetTest {
         //Assert
         assertEquals("Fluffy", pet.getName());
     }
+    
     @Test
     public void testGetOwner(){
         //Arrange
